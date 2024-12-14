@@ -1,0 +1,58 @@
+
+body {
+  background-color: #222222;
+  margin: 0;
+}
+
+.box {
+  background-color: #2b2b2b;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #00000080;
+}
+
+.input-formulario {
+  background-color: #131313;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.input-formulario::placeholder {
+  color: #aaa;
+}
+
+.input-formulario:focus {
+  box-shadow: none;
+  outline: 1px solid #8EB8F2;
+}
+
+.btn-custom:hover {
+  background-color: #3083f8;
+}
+
+.btn-custom {
+background-color: #7ab2ff;
+color: white;
+font-weight: bold;
+transition: 0.4s;
+;
+}
+
+.line {
+  height: 1px;
+  background-color: #666;
+  width: 100px;
+}
+
+.fa-brands {
+  cursor: pointer;
+}
+
+a.text-primary {
+  color: #8EB8F2;
+  font-weight: 500;
+  text-decoration: none;
+}
